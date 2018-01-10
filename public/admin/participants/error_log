@@ -1,0 +1,34 @@
+[02-Nov-2017 08:18:57 UTC] PHP Fatal error:  Cannot redeclare delete_user() (previously declared in /u01/home/s302218/public_html/codefair/private/query_functions.php:194) in /u01/home/s302218/public_html/codefair/private/query_functions.php on line 417
+[02-Nov-2017 08:21:12 UTC] PHP Fatal error:  Cannot redeclare delete_user() (previously declared in /u01/home/s302218/public_html/codefair/private/query_functions.php:194) in /u01/home/s302218/public_html/codefair/private/query_functions.php on line 417
+[03-Nov-2017 07:00:45 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /u01/home/s302218/public_html/codefair/private/query_functions.php on line 253
+[03-Nov-2017 07:02:53 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /u01/home/s302218/public_html/codefair/private/query_functions.php on line 253
+[03-Nov-2017 07:03:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /u01/home/s302218/public_html/codefair/private/query_functions.php on line 253
+[03-Nov-2017 07:03:11 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /u01/home/s302218/public_html/codefair/private/query_functions.php on line 253
+[03-Nov-2017 07:12:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function delete_page() in /u01/home/s302218/public_html/codefair/public/admin/participants/delete_participant.php:20
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/codefair/public/admin/participants/delete_participant.php on line 20
+[04-Nov-2017 03:04:03 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /u01/home/s302218/public_html/codefair/public/admin/participants/create_qrcode.php on line 14
+[04-Nov-2017 03:05:40 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /u01/home/s302218/public_html/codefair/public/admin/participants/create_qrcode.php on line 15
+[04-Nov-2017 03:05:48 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /u01/home/s302218/public_html/codefair/public/admin/participants/create_qrcode.php on line 15
+[04-Nov-2017 03:05:49 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /u01/home/s302218/public_html/codefair/public/admin/participants/create_qrcode.php on line 15
+[04-Nov-2017 03:05:50 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /u01/home/s302218/public_html/codefair/public/admin/participants/create_qrcode.php on line 15
+[04-Nov-2017 03:06:54 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /u01/home/s302218/public_html/codefair/public/admin/participants/create_qrcode.php on line 15
+[04-Nov-2017 03:07:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function gmtime() in /u01/home/s302218/public_html/codefair/public/admin/participants/create_qrcode.php:14
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/codefair/public/admin/participants/create_qrcode.php on line 14
+[04-Nov-2017 03:15:50 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /u01/home/s302218/public_html/codefair/public/admin/participants/create_qrcode.php on line 14
+[04-Nov-2017 13:18:32 Australia/Darwin] PHP Fatal error:  Uncaught Error: Call to undefined function gmktime() in /u01/home/s302218/public_html/codefair/public/admin/participants/create_qrcode.php:18
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/codefair/public/admin/participants/create_qrcode.php on line 18
+[04-Nov-2017 04:07:03 UTC] PHP Warning:  date() expects at most 2 parameters, 3 given in /u01/home/s302218/public_html/codefair/public/admin/participants/create_qrcode.php on line 20
+[04-Nov-2017 04:07:05 UTC] PHP Warning:  date() expects at most 2 parameters, 3 given in /u01/home/s302218/public_html/codefair/public/admin/participants/create_qrcode.php on line 20
+[04-Nov-2017 04:13:38 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /u01/home/s302218/public_html/codefair/public/admin/participants/create_qrcode.php on line 22
+[04-Nov-2017 04:14:35 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /u01/home/s302218/public_html/codefair/public/admin/participants/create_qrcode.php on line 22
+[04-Nov-2017 04:14:36 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /u01/home/s302218/public_html/codefair/public/admin/participants/create_qrcode.php on line 22
+[04-Nov-2017 04:14:37 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /u01/home/s302218/public_html/codefair/public/admin/participants/create_qrcode.php on line 22
+[05-Nov-2017 07:39:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /u01/home/s302218/public_html/codefair/private/functions.php on line 179
+[05-Nov-2017 07:46:07 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /u01/home/s302218/public_html/codefair/private/functions.php on line 181
+[07-Nov-2017 09:35:46 UTC] PHP Parse error:  syntax error, unexpected '??' (T_COALESCE) in /u01/home/s302218/public_html/codefair/public/admin/participants/edit_participant.php on line 55

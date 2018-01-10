@@ -1,0 +1,325 @@
+html, body, ul, li, h1 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    margin: 0;
+}
+
+/*body {
+    display: flex;
+}*/
+
+.content, .info, .logonav, .logo, table, thead, .error, .form{
+    border-radius: 5px;
+    box-shadow: 0 12px 20px -10px rgba(196, 175, 134, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(196, 175, 134, 0.28);
+}
+
+.wrapper {
+    display: grid;
+    /*border-top: 3px solid red;*/
+    background-color: rgb(233, 233, 233);
+    grid-gap: 20px;
+    box-sizing: border-box;
+    grid-template-columns: 200px 800px;
+    grid-template-rows: 55px calc(100vh - 150px) 55px;
+    grid-template-areas: "info info" "logonav content" "footer footer";
+    justify-content: center;
+}
+
+.info {
+    display: grid;
+    margin-top: 10px;
+    grid-area: info;
+    justify-content: right;
+    background: linear-gradient(120deg,#c4af86,  transparent 30%, #c4af86, transparent 70%, #c4af86);
+
+}
+
+.welcome{
+    display: flex;
+    margin: 10px;
+}
+
+.content {
+    color: #444;
+    grid-area: content;
+    padding: 11px;
+    /*overflow: scroll;*/
+    background: rgba(196, 175, 134, 0.1);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, minmax(55px, auto)) 1fr;
+    grid-gap: 40px 10px;
+}
+
+
+.logonav {
+    /*margin-top: 10px;*/
+    display: grid;
+    background: rgba(196, 175, 134, 0.6);
+    grid-area: logonav;
+    grid-template-rows: repeat(10, 90px);
+    font-size: 0.9rem;
+    justify-content: center;
+}
+
+.logo {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+    transition: all .1s ease-in-out;
+    font-weight: normal;
+    border-radius: 0;
+    background: 0;
+    box-sizing: border-box;
+}
+
+.logo:hover {
+    /*transform: scale(1.03);*/
+    background: #78788c;
+    color: #fff;
+}
+
+.menu {
+    /*width: 100%;*/
+}
+
+
+ul {
+    position: relative;
+    /*margin-left: -110px;*/
+    left: -40px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+.menu_item {
+    box-sizing:border-box;
+    padding-left: 10px;
+    display: grid;
+    /*justify-content: center;*/
+    justify-self: center;
+    list-style: none;
+    height: 40px;
+    line-height: 40px;
+    transition: all .2s ease-in-out;
+}
+
+.menu_item:hover {
+    border-bottom: 6px solid rgba(0, 0, 0, 0.2);
+}
+
+.menu_item:active {
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+.add_link{
+    display: grid;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    /*grid-column-end: 2;*/
+    grid-column: span 2;
+    color: inherit;
+}
+
+.add_link:hover {
+    text-decoration: underline;
+}
+
+.search {
+    display: grid;
+    grid-row-start: 1;
+    grid-column-start: 4;
+    grid-column-end: 4
+    grid-column: span 1;
+    width: inherit;
+    height: inherit;
+    padding: 5px;;
+    margin: inherit;
+    border-radius: 3px;
+    background-color: transparent;
+    box-shadow: none;
+}
+.search input::placeholder {
+    color: inherit;
+}
+
+/*.search:focus {
+    border-bottom: 2px solid #9c27b0;
+}*/
+
+
+
+.view {
+    display: grid;
+    grid-row-start: 2;
+    /*grid-column-start: 1;*/
+    grid-column: span 2/4;
+}
+
+.card {
+    display: grid;
+    grid-row-start: 2;
+    grid-column: span 1;
+    padding: 5px;
+    font-size: .8rem;
+    display: inline-block;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    border-radius: 3px;
+    color: rgba(0, 0, 0, 0.87);
+    height: 100%;
+}
+
+.error {
+    display: grid;
+    grid-row-start: 1;
+    /*grid-row: span 3;*/
+    /*grid-row-end: 4;*/
+    /*grid-column-start: 2;*/
+    grid-auto-rows: auto;
+    grid-column: span 4;
+    background: rgb(242, 222, 222);
+    color: #a94442;
+    border-radius: 5px;
+    /*width: 55%;*/
+    margin: 11px auto;
+    /*box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);*/
+    padding: 5px 10px 5px 30px;
+}
+
+.error li {
+
+    font-size: .85rem;
+    list-style:  initial;
+    height: 24px;
+    line-height: 24px;
+}
+
+table {
+    display: grid
+    grid-row-start: 4;
+    grid-column: span 4;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-radius: 5px;
+    /* hide standard table (collapsed) border */
+    border-style: hidden;
+    /* this draws the table border  */
+    /*overflow: scroll;*/
+}
+
+thead {
+    padding: 30px;
+    background: rgba(240, 215, 167, .6);
+}
+
+td, th {
+    padding: 5px;
+}
+
+td {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+th{
+    background: rgba(0, 0, 0, 0.2);
+}
+
+span {
+    font-weight: bold;
+}
+
+
+.footer {
+    line-height: 0;
+    border-top: 1px solid rgba(222, 222, 222, 1);
+    grid-area: footer;
+    text-align: center;
+}
+
+
+/* Utility classes */
+
+.bigbold {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.pad_left_7px{
+    padding-left: 7px;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.underline {
+    font-size: .9rem;
+    text-decoration: underline;
+    color: rgba(68, 132, 207, 1);
+}
+
+.lead {
+    font-size: 1.05rem;
+    font-weight: 600;
+}
+
+.font_normal{
+    font-weight: normal;
+    font-style: normal;
+}
+
+.small {
+    font-size: 0.7rem;
+    font-weight: 100;
+}
+
+.teal_card {
+    background: linear-gradient(60deg, #26c6da, #00acc1);
+    box-shadow: 0 12px 20px -10px rgba(0, 188, 212, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(0, 188, 212, 0.2);
+}
+
+.orange_card {
+    background: linear-gradient(60deg, #ffa726, #fb8c00);
+    box-shadow: 0 12px 20px -10px rgba(255, 152, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 152, 0, 0.2);
+}
+
+.green_card {
+    background: linear-gradient(60deg, #66bb6a, #43a047);
+    box-shadow: 0 12px 20px -10px rgba(76, 175, 80, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(76, 175, 80, 0.2);
+}
+
+.red_card {
+    background: linear-gradient(60deg, #ef5350, #e53935);
+    box-shadow: 0 12px 20px -10px rgba(244, 67, 54, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(244, 67, 54, 0.2);
+}
+.text_shadow {
+    /*text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);*/
+    text-shadow: 0 1px 0 #fff
+}
+
+.info_text {
+    color: #31708f;
+}
+
+#ticket {
+
+    height: 90px;
+    width: 170px;
+    background: beige;
+}
+#qrcode {
+    position: relative;
+    top: 0;
+    left: 0;
+    /*background: rgba(11, 0 ,0, .4);*/
+    width:70px;
+    height:70px;
+    /*margin-top:15px;*/
+}

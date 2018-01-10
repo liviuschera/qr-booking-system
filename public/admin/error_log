@@ -1,0 +1,225 @@
+[17-Sep-2017 10:32:33 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /u01/home/s302218/public_html/cms_2/private/query_functions.php on line 6
+[17-Sep-2017 10:33:10 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /u01/home/s302218/public_html/cms_2/private/query_functions.php on line 6
+[17-Sep-2017 10:33:58 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /u01/home/s302218/public_html/cms_2/private/query_functions.php on line 6
+[17-Sep-2017 10:33:59 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /u01/home/s302218/public_html/cms_2/private/query_functions.php on line 6
+[17-Sep-2017 10:34:01 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /u01/home/s302218/public_html/cms_2/private/query_functions.php on line 6
+[20-Sep-2017 09:29:01 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /u01/home/s302218/public_html/cms/private/query_functions.php on line 30
+[20-Sep-2017 09:29:01 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /u01/home/s302218/public_html/cms/private/query_functions.php on line 35
+[20-Sep-2017 09:35:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /u01/home/s302218/public_html/cms/private/query_functions.php on line 30
+[20-Sep-2017 09:35:57 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /u01/home/s302218/public_html/cms/private/query_functions.php on line 35
+[20-Sep-2017 09:38:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /u01/home/s302218/public_html/cms/private/query_functions.php on line 30
+[20-Sep-2017 09:38:06 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /u01/home/s302218/public_html/cms/private/query_functions.php on line 35
+[21-Sep-2017 00:41:45 UTC] PHP Parse error:  syntax error, unexpected 'global' (T_GLOBAL) in /u01/home/s302218/public_html/cms/public/admin/view.php on line 17
+[21-Sep-2017 02:04:57 UTC] PHP Warning:  mysqli_insert_id(): Couldn't fetch mysqli in /u01/home/s302218/public_html/cms/public/admin/create.php on line 12
+[21-Sep-2017 04:30:28 UTC] PHP Warning:  include(/u01/home/s302218/public_html/cms/private/forms.php): failed to open stream: No such file or directory in /u01/home/s302218/public_html/cms/public/admin/index.php on line 3
+[21-Sep-2017 04:30:28 UTC] PHP Warning:  include(): Failed opening '/u01/home/s302218/public_html/cms/private/forms.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /u01/home/s302218/public_html/cms/public/admin/index.php on line 3
+[26-Sep-2017 01:37:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db_escape() in /u01/home/s302218/public_html/cms/private/query_functions.php:44
+Stack trace:
+#0 /u01/home/s302218/public_html/cms/public/admin/new_user.php(12): create_new_user(Array)
+#1 {main}
+  thrown in /u01/home/s302218/public_html/cms/private/query_functions.php on line 44
+[26-Sep-2017 01:46:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function closeDB() in /u01/home/s302218/public_html/cms/private/query_functions.php:55
+Stack trace:
+#0 /u01/home/s302218/public_html/cms/public/admin/new_user.php(12): create_new_user(Array)
+#1 {main}
+  thrown in /u01/home/s302218/public_html/cms/private/query_functions.php on line 55
+[26-Sep-2017 02:09:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect_to() in /u01/home/s302218/public_html/cms/public/admin/new_user.php:15
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/new_user.php on line 15
+[28-Sep-2017 01:22:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function find_content_by_id() in /u01/home/s302218/public_html/cms/public/admin/new_user.php:36
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/new_user.php on line 36
+[28-Sep-2017 01:24:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function find_content_by_id() in /u01/home/s302218/public_html/cms/public/admin/new_user.php:36
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/new_user.php on line 36
+[28-Sep-2017 01:25:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function find_content_by_id() in /u01/home/s302218/public_html/cms/public/admin/new_user.php:36
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/new_user.php on line 36
+[28-Sep-2017 02:17:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_post_request() in /u01/home/s302218/public_html/cms/public/admin/delete_user.php:14
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/delete_user.php on line 14
+[28-Sep-2017 02:19:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_post_request() in /u01/home/s302218/public_html/cms/public/admin/delete_user.php:14
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/delete_user.php on line 14
+[28-Sep-2017 02:23:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function b_escape() in /u01/home/s302218/public_html/cms/private/query_functions.php:14
+Stack trace:
+#0 /u01/home/s302218/public_html/cms/public/admin/delete_user.php(12): find_user_by_id(NULL)
+#1 {main}
+  thrown in /u01/home/s302218/public_html/cms/private/query_functions.php on line 14
+[28-Sep-2017 03:55:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function isPostRequest() in /u01/home/s302218/public_html/cms/public/admin/new_user.php:6
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/new_user.php on line 6
+[28-Sep-2017 04:00:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirectTo() in /u01/home/s302218/public_html/cms/public/admin/edit_user.php:25
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/edit_user.php on line 25
+[28-Sep-2017 04:02:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirectTo() in /u01/home/s302218/public_html/cms/public/admin/edit_user.php:7
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/edit_user.php on line 7
+[28-Sep-2017 04:20:21 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /u01/home/s302218/public_html/cms/public/admin/test.php on line 5
+[28-Sep-2017 04:20:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function find_user_by_id() in /u01/home/s302218/public_html/cms/public/admin/test.php:10
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/test.php on line 10
+[28-Sep-2017 04:20:29 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:20:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function find_user_by_id() in /u01/home/s302218/public_html/cms/public/admin/test.php:10
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/test.php on line 10
+[28-Sep-2017 04:20:30 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:20:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function find_user_by_id() in /u01/home/s302218/public_html/cms/public/admin/test.php:10
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/test.php on line 10
+[28-Sep-2017 04:20:30 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:20:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function find_user_by_id() in /u01/home/s302218/public_html/cms/public/admin/test.php:10
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/test.php on line 10
+[28-Sep-2017 04:20:30 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:20:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function find_user_by_id() in /u01/home/s302218/public_html/cms/public/admin/test.php:10
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/test.php on line 10
+[28-Sep-2017 04:20:31 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:20:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function find_user_by_id() in /u01/home/s302218/public_html/cms/public/admin/test.php:10
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/test.php on line 10
+[28-Sep-2017 04:20:40 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /u01/home/s302218/public_html/cms/public/admin/test.php on line 5
+[28-Sep-2017 04:20:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function find_user_by_id() in /u01/home/s302218/public_html/cms/public/admin/test.php:10
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/test.php on line 10
+[28-Sep-2017 04:20:40 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /u01/home/s302218/public_html/cms/public/admin/test.php on line 5
+[28-Sep-2017 04:20:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function find_user_by_id() in /u01/home/s302218/public_html/cms/public/admin/test.php:10
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/test.php on line 10
+[28-Sep-2017 04:20:41 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /u01/home/s302218/public_html/cms/public/admin/test.php on line 5
+[28-Sep-2017 04:20:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function find_user_by_id() in /u01/home/s302218/public_html/cms/public/admin/test.php:10
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/test.php on line 10
+[28-Sep-2017 04:20:43 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /u01/home/s302218/public_html/cms/public/admin/test.php on line 5
+[28-Sep-2017 04:20:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function find_user_by_id() in /u01/home/s302218/public_html/cms/public/admin/test.php:10
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/test.php on line 10
+[28-Sep-2017 04:20:52 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:20:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function find_user_by_id() in /u01/home/s302218/public_html/cms/public/admin/test.php:10
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/test.php on line 10
+[28-Sep-2017 04:20:53 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:20:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function find_user_by_id() in /u01/home/s302218/public_html/cms/public/admin/test.php:10
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/test.php on line 10
+[28-Sep-2017 04:20:53 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:20:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function find_user_by_id() in /u01/home/s302218/public_html/cms/public/admin/test.php:10
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/test.php on line 10
+[28-Sep-2017 04:21:19 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:21:20 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:21:21 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:21:21 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:21:21 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:21:21 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:21:22 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:21:22 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:21:25 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:21:25 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:21:26 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:21:26 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:21:27 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:21:27 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:21:27 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:21:28 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:21:28 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:21:29 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:21:29 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:21:29 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:21:30 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:21:30 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:21:30 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:21:30 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:21:31 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:21:31 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:21:31 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:21:31 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 04:53:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function timed_out() in /u01/home/s302218/public_html/cms/public/admin/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/index.php on line 6
+[28-Sep-2017 04:54:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function timed_out() in /u01/home/s302218/public_html/cms/public/admin/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/index.php on line 6
+[28-Sep-2017 05:19:15 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:15 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:15 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:16 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:16 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:16 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:17 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:17 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:17 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:17 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:19 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:20 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:20 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:20 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:20 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:20 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:20 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:21 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:21 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:21 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:21 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:21 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:22 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:22 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:22 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:23 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:24 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:26 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:26 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:28 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:29 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:30 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:31 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:31 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:32 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:33 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[28-Sep-2017 05:19:34 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /u01/home/s302218/public_html/cms/public/admin/test.php:2) in /u01/home/s302218/public_html/cms/public/admin/test.php on line 4
+[30-Sep-2017 04:27:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function isPostRequest() in /u01/home/s302218/public_html/cms/public/admin/new_user.php:6
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/new_user.php on line 6
+[30-Sep-2017 05:01:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function timed_out() in /u01/home/s302218/public_html/cms/public/admin/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/index.php on line 6
+[30-Sep-2017 05:01:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function timed_out() in /u01/home/s302218/public_html/cms/public/admin/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/index.php on line 6
+[30-Sep-2017 05:31:23 UTC] PHP Warning:  Missing argument 1 for display_errors(), called in /u01/home/s302218/public_html/cms/public/admin/new_user.php on line 38 and defined in /u01/home/s302218/public_html/cms/private/functions.php on line 68
+[30-Sep-2017 05:31:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /u01/home/s302218/public_html/cms/private/functions.php on line 73
+[30-Sep-2017 05:32:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /u01/home/s302218/public_html/cms/private/functions.php on line 73
+[30-Sep-2017 05:33:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /u01/home/s302218/public_html/cms/private/functions.php on line 73
+[30-Sep-2017 05:33:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /u01/home/s302218/public_html/cms/private/functions.php on line 73
+[30-Sep-2017 05:34:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /u01/home/s302218/public_html/cms/private/functions.php on line 73
+[30-Sep-2017 05:35:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /u01/home/s302218/public_html/cms/private/functions.php on line 73
+[30-Sep-2017 05:35:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /u01/home/s302218/public_html/cms/private/functions.php on line 73
+[08-Oct-2017 08:47:58 UTC] PHP Parse error:  syntax error, unexpected '}' in /u01/home/s302218/public_html/cms/private/query_functions.php on line 267

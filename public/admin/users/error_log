@@ -1,0 +1,90 @@
+[03-Oct-2017 02:30:17 UTC] PHP Warning:  require_once(../../private/initialize.php): failed to open stream: No such file or directory in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 1
+[03-Oct-2017 02:30:17 UTC] PHP Fatal error:  require_once(): Failed opening required '../../private/initialize.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 1
+[03-Oct-2017 02:30:57 UTC] PHP Warning:  require_once(../../private/initialize.php): failed to open stream: No such file or directory in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 1
+[03-Oct-2017 02:30:57 UTC] PHP Fatal error:  require_once(): Failed opening required '../../private/initialize.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 1
+[03-Oct-2017 02:36:30 UTC] PHP Warning:  require_once(../../private/initialize.php): failed to open stream: No such file or directory in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 1
+[03-Oct-2017 02:36:30 UTC] PHP Fatal error:  require_once(): Failed opening required '../../private/initialize.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 1
+[03-Oct-2017 02:36:33 UTC] PHP Warning:  require_once(../../private/initialize.php): failed to open stream: No such file or directory in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 1
+[03-Oct-2017 02:36:33 UTC] PHP Fatal error:  require_once(): Failed opening required '../../private/initialize.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 1
+[03-Oct-2017 03:30:16 UTC] PHP Warning:  require_once(../../../../private/initialize.php): failed to open stream: No such file or directory in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 1
+[03-Oct-2017 03:30:16 UTC] PHP Fatal error:  require_once(): Failed opening required '../../../../private/initialize.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 1
+[03-Oct-2017 03:31:21 UTC] PHP Warning:  require_once(../../../../private/initialize.php): failed to open stream: No such file or directory in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 1
+[03-Oct-2017 03:31:21 UTC] PHP Fatal error:  require_once(): Failed opening required '../../../../private/initialize.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 1
+[03-Oct-2017 03:32:27 UTC] PHP Warning:  require_once(../../private/initialize.php): failed to open stream: No such file or directory in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 1
+[03-Oct-2017 03:32:27 UTC] PHP Fatal error:  require_once(): Failed opening required '../../private/initialize.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 1
+[03-Oct-2017 03:32:29 UTC] PHP Warning:  require_once(../../private/initialize.php): failed to open stream: No such file or directory in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 1
+[03-Oct-2017 03:32:29 UTC] PHP Fatal error:  require_once(): Failed opening required '../../private/initialize.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 1
+[03-Oct-2017 03:32:29 UTC] PHP Warning:  require_once(../../private/initialize.php): failed to open stream: No such file or directory in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 1
+[03-Oct-2017 03:32:29 UTC] PHP Fatal error:  require_once(): Failed opening required '../../private/initialize.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 1
+[03-Oct-2017 03:32:31 UTC] PHP Warning:  require_once(../../private/initialize.php): failed to open stream: No such file or directory in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 1
+[03-Oct-2017 03:32:31 UTC] PHP Fatal error:  require_once(): Failed opening required '../../private/initialize.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 1
+[03-Oct-2017 07:56:06 UTC] PHP Warning:  require_once(../../private/initialize.php): failed to open stream: No such file or directory in /u01/home/s302218/public_html/cms/public/admin/users/new_user.php on line 1
+[03-Oct-2017 07:56:06 UTC] PHP Fatal error:  require_once(): Failed opening required '../../private/initialize.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /u01/home/s302218/public_html/cms/public/admin/users/new_user.php on line 1
+[04-Oct-2017 07:08:56 UTC] PHP Warning:  require_once(../../private/initialize.php): failed to open stream: No such file or directory in /u01/home/s302218/public_html/cms/public/admin/users/view_user.php on line 1
+[04-Oct-2017 07:08:56 UTC] PHP Fatal error:  require_once(): Failed opening required '../../private/initialize.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /u01/home/s302218/public_html/cms/public/admin/users/view_user.php on line 1
+[04-Oct-2017 07:09:50 UTC] PHP Warning:  require_once(../../private/initialize.php): failed to open stream: No such file or directory in /u01/home/s302218/public_html/cms/public/admin/users/edit_user.php on line 1
+[04-Oct-2017 07:09:50 UTC] PHP Fatal error:  require_once(): Failed opening required '../../private/initialize.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /u01/home/s302218/public_html/cms/public/admin/users/edit_user.php on line 1
+[05-Oct-2017 02:48:57 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 's302218_liviu'@'localhost' (using password: YES) in /u01/home/s302218/public_html/cms/private/database.php on line 6
+[05-Oct-2017 08:50:50 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 48
+[05-Oct-2017 08:52:34 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 67
+[06-Oct-2017 00:15:45 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 13
+[06-Oct-2017 00:16:05 UTC] PHP Parse error:  syntax error, unexpected 'count_all_users' (T_STRING), expecting ',' or ';' in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 13
+[06-Oct-2017 00:16:38 UTC] PHP Parse error:  syntax error, unexpected '$all_users' (T_VARIABLE), expecting ',' or ';' in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 13
+[06-Oct-2017 00:17:14 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 15
+[06-Oct-2017 00:17:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function type() in /u01/home/s302218/public_html/cms/public/admin/users/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 15
+[06-Oct-2017 00:19:29 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /u01/home/s302218/public_html/cms/public/admin/users/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 16
+[06-Oct-2017 00:22:54 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /u01/home/s302218/public_html/cms/public/admin/users/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 15
+[06-Oct-2017 00:23:49 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /u01/home/s302218/public_html/cms/public/admin/users/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 16
+[06-Oct-2017 03:55:17 UTC] PHP Parse error:  syntax error, unexpected '$total_admin' (T_VARIABLE) in /u01/home/s302218/public_html/cms/public/admin/users/index.php on line 15
+[07-Oct-2017 04:40:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_blank() in /u01/home/s302218/public_html/cms/private/query_functions.php:111
+Stack trace:
+#0 /u01/home/s302218/public_html/cms/private/query_functions.php(125): validate_user(Array)
+#1 /u01/home/s302218/public_html/cms/public/admin/users/new_user.php(15): create_new_user(Array)
+#2 {main}
+  thrown in /u01/home/s302218/public_html/cms/private/query_functions.php on line 111
+[09-Oct-2017 05:07:23 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, array given in /u01/home/s302218/public_html/cms/private/functions.php on line 120
+[09-Oct-2017 05:12:18 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, array given in /u01/home/s302218/public_html/cms/private/functions.php on line 120
+[09-Oct-2017 09:39:13 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /u01/home/s302218/public_html/cms/private/functions.php on line 121
+[09-Oct-2017 09:39:56 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /u01/home/s302218/public_html/cms/private/functions.php on line 121
+[09-Oct-2017 09:40:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /u01/home/s302218/public_html/cms/private/functions.php on line 121
+[09-Oct-2017 09:43:43 UTC] PHP Warning:  trim() expects parameter 1 to be string, object given in /u01/home/s302218/public_html/cms/private/functions.php on line 33
+[14-Oct-2017 02:44:40 UTC] PHP Warning:  Missing argument 2 for db_escape(), called in /u01/home/s302218/public_html/cms/private/query_functions.php on line 183 and defined in /u01/home/s302218/public_html/cms/private/database.php on line 32
+[14-Oct-2017 02:44:40 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, string given in /u01/home/s302218/public_html/cms/private/database.php on line 33
+[14-Oct-2017 12:06:15 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /u01/home/s302218/public_html/cms/private/query_functions.php on line 93
+[14-Oct-2017 12:06:16 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /u01/home/s302218/public_html/cms/private/query_functions.php on line 93
+[14-Oct-2017 12:12:13 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /u01/home/s302218/public_html/cms/public/admin/users/edit_user.php on line 56
+[14-Oct-2017 12:22:56 UTC] PHP Parse error:  syntax error, unexpected '$unique_email' (T_VARIABLE) in /u01/home/s302218/public_html/cms/private/query_functions.php on line 179
+[17-Oct-2017 07:14:01 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /u01/home/s302218/public_html/cms/public/admin/users/edit_user.php on line 58
+[17-Oct-2017 07:14:40 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /u01/home/s302218/public_html/cms/public/admin/users/edit_user.php on line 58
+[17-Oct-2017 07:14:43 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /u01/home/s302218/public_html/cms/public/admin/users/edit_user.php on line 58
+[17-Oct-2017 07:14:43 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /u01/home/s302218/public_html/cms/public/admin/users/edit_user.php on line 58
+[17-Oct-2017 07:14:44 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /u01/home/s302218/public_html/cms/public/admin/users/edit_user.php on line 58
+[17-Oct-2017 07:16:01 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /u01/home/s302218/public_html/cms/public/admin/users/edit_user.php on line 58
+[17-Oct-2017 07:26:35 UTC] PHP Parse error:  syntax error, unexpected 'unset' (T_UNSET) in /u01/home/s302218/public_html/cms/public/admin/users/edit_user.php on line 42
+[17-Oct-2017 07:26:45 UTC] PHP Parse error:  syntax error, unexpected '$new_password' (T_VARIABLE) in /u01/home/s302218/public_html/cms/public/admin/users/edit_user.php on line 44
+[17-Oct-2017 07:29:35 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /u01/home/s302218/public_html/cms/public/admin/users/edit_user.php on line 52
+[17-Oct-2017 08:25:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function email_is_not_unique() in /u01/home/s302218/public_html/cms/public/admin/users/edit_user.php:42
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/users/edit_user.php on line 42
+[17-Oct-2017 08:25:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function email_is_not_unique() in /u01/home/s302218/public_html/cms/private/query_functions.php:164
+Stack trace:
+#0 /u01/home/s302218/public_html/cms/public/admin/users/edit_user.php(46): edit_user(Array, Array)
+#1 {main}
+  thrown in /u01/home/s302218/public_html/cms/private/query_functions.php on line 164
+[19-Oct-2017 04:00:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function has_unique_email() in /u01/home/s302218/public_html/cms/public/admin/users/new_user.php:17
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/users/new_user.php on line 17
